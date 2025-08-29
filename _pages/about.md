@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 Hi there, this is Shufan Jiang. 
-My current research interest includes **Large Language Models**, **Multi-Agent Systems**, and **Game Development**.
+My current research interest includes **Large Language Models**, **World Models**, **Multi-Agent Systems**, and **Scaling Environment for Agents**.
 
 I'm previously a research intern at **miHoYo**.
 
@@ -18,16 +18,16 @@ I'm previously a research intern at **miHoYo**.
 
 # Education
 
-* Master of Science, The Hong Kong Polytechnic University, Hong Kong, China                             2025 - 2027(expected)
+* Master of Science, The Hong Kong Polytechnic University, Hong Kong, China 2025 - 2027(expected)
 
-* Bachelor of Engineering, East China University of Science and Technology, Shanghai, China   2021 - 2025
+* Bachelor of Engineering, East China University of Science and Technology, Shanghai, China 2021 - 2025
 
 ---
 # Research and Project
 
-### Build Your Own RP Benchmark
+### CustomRPBench
 
-**Build Your Own RP Benchmark: A Multi-agent Collaboration Framework for Fully Customizable Role-Playing Conversation** 
+**Build Your Own RP Benchmark: A Multi-agent Collaboration Framework for Fully Customizable Role-Playing Conversation (CustomRPBench)** 
 
 ![](roleplay.png)
 
