@@ -10,30 +10,30 @@ redirect_from:
 ---
 
 Hi there, this is Shufan Jiang. 
-My current research interest includes **Large Language Models**, **World Models**, **Multi-Agent Systems**, and **Scaling Environment for Agents**.
+My current research interest includes **Large Language Models**, **Multi-Agent Systems**, and **Scaling Environment for Agents**.
 
 I'm previously a research intern at **miHoYo**.
 
 ---
-
-# Education
-
-* Master of Science, The Hong Kong Polytechnic University, Hong Kong, China 2025 - 2027(expected)
-
-* Bachelor of Engineering, East China University of Science and Technology, Shanghai, China 2021 - 2025
-
----
 # Research and Project
 
-### CustomRPBench
+### FURINA
 
-**Build Your Own RP Benchmark: A Multi-agent Collaboration Framework for Fully Customizable Role-Playing Conversation (CustomRPBench)** 
+**FURINA: A Fully Customizable Role-Playing Benchmark via Scalable Multi-Agent Collaboration Pipeline**
 
 ![](roleplay.png)
 
+Supervised by Prof.**Chengwei Qin**, The Hong Kong University of Science and Technology, China
+
+- Authored a paper as the co-first author https://arxiv.org/pdf/2510.06800;
+- Proposed **FURINA-Builder**, the first multi-agent collaboration pipeline for automatically constructing fully customizable RP benchmarks at arbitrary scales, targeting real-world challenges;
+- Introduced **FURINA-Bench**, a comprehensive RP benchmark built with FURINA-Builder, which incorporates both established and synthesized test characters in group-chat scenarios, accompanied by fine-grained evaluation criteria. A preliminary analysis demonstrates that it facilitates clearer model separability and supports more robust evaluation.
+
+![](furina-bench.png)
+
 ### HAMLET
 
-**Hyperadaptive Agent‑based Modeling for Live Embodied Theatrics (HAMLET)** 
+**HAMLET: Hyperadaptive Agent‑based Modeling for Live Embodied Theatrics ** 
 
 ![](drama.png)
 
@@ -51,7 +51,7 @@ This is our demonstration of core multi-agent system design for AI-Driven Drama.
 
 ### LINKs
 
-**LLM Integrated Management for 6G Empowered Digital Twin Networks (LINKs)** 
+**LINKs: LLM Integrated Management for 6G Empowered Digital Twin Networks** 
 
 ![](system.png)
 
@@ -105,9 +105,9 @@ Supervised by Prof. **Pietro Liò**, Department of Computer Science and Technolo
 
 **2025**
 
-* [[AAAI 2026]]() Sizhou Chen\*, **Shufan Jiang**\*, Chi Zhang, Xiao-Lei Zhang, Xuelong Li. HAMLET: Hyperadaptive Agent‑based Modeling for Live Embodied Theatrics.
+* [[ICLR 2026]]() Haotian Wu\*, **Shufan Jiang\***, Mingyu Chen, Yiyang Feng, Hehai Lin, Heqing Zou, Yao Shu, Chengwei Qin. FURINA: A Fully Customizable Role-Playing Benchmark via Scalable Multi-Agent Collaboration Pipeline.
 
-* [[ICLR 2026 WIP]]() 
+* [[ICLR 2026]]() Sizhou Chen\*, **Shufan Jiang\***, Chi Zhang, Xiao-Lei Zhang, Xuelong Li. HAMLET: Hyperadaptive Agent‑based Modeling for Live Embodied Theatrics.
 
 **2024**
 
