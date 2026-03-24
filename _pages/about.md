@@ -9,59 +9,68 @@ redirect_from:
 
 ---
 
-Hi there, this is Shufan Jiang. 
-My current research interest includes **Large Language Models**, **Multi-Agent Systems**, and **Scaling Environment for Agents**.
+Hi there, this is Shufan Jiang. I actively develop and contribute to open-source projects.
 
-I'm previously a research intern at **miHoYo**.
+My current research interests include:
+- **Large Language Models (LLMs)**
+- **Multi-Agent Systems**
+- **Scaling Environments for Agent**
+- **Agent Benchmarking & Evaluation Methodologies**
+
+I was previously a research intern at **miHoYo LumiNLP**, where I worked on Intelligent Game NPCs.
 
 ---
-# Research and Project
 
-### FURINA
 
-**FURINA: A Fully Customizable Role-Playing Benchmark via Scalable Multi-Agent Collaboration Pipeline**
+## Research
+
+### GBQA: A Game Benchmark for Evaluating LLMs as Quality Assurance Engineers
+
+![](gbqa.png)
+
+- Authored a paper as the **first author** [(Accepted at ICLR 2026 Workshop)](https://openreview.net/pdf?id=8uWXFHZNNZ);
+- Proposed **GBQA**, an interactive benchmark containing 30 games and 124 verified bugs;
+- **GBQA** emphasizes autonomous bug discovery and quality assurance within the development cycle.
+
+
+
+### FURINA: A Fully Customizable Role-Playing Benchmark via Scalable Multi-Agent Collaboration Pipeline
 
 ![](roleplay.png)
 
-Supervised by Prof.**Chengwei Qin**, The Hong Kong University of Science and Technology, China
+*Supervised by **Prof.Chengwei Qin**, The Hong Kong University of Science and Technology, China*
 
-- Authored a paper as the co-first author https://arxiv.org/pdf/2510.06800;
+- Authored a paper as the **co-first author** https://arxiv.org/pdf/2510.06800;
 - Proposed **FURINA-Builder**, the first multi-agent collaboration pipeline for automatically constructing fully customizable RP benchmarks at arbitrary scales, targeting real-world challenges;
 - Introduced **FURINA-Bench**, a comprehensive RP benchmark built with FURINA-Builder, which incorporates both established and synthesized test characters in group-chat scenarios, accompanied by fine-grained evaluation criteria. A preliminary analysis demonstrates that it facilitates clearer model separability and supports more robust evaluation.
 
-![](furina-bench.png)
 
-### HAMLET
 
-**HAMLET: Hyperadaptive Agent‑based Modeling for Live Embodied Theatrics ** 
+### HAMLET: A Hierarchical and Adaptive Multi-agent Framework for Live Embodied Theatrics
 
 ![](drama.png)
 
-Supervised by Prof. **Xuelong Li**, Institute of Artificial Intelligence (TeleAI), China Telecom, China
+*Supervised by **Prof.Xuelong Li**, Institute of Artificial Intelligence (TeleAI), China Telecom, China*
 
-- Co‑first author; preprint: [arXiv:2507.15518](https://arxiv.org/pdf/2507.15518).
-- Proposed HAMLET, a multi‑agent system that generates complete online drama performances from a single user instruction.
-- Conducted model training, win‑rate evaluation, and ablation studies.
-
-This is our demonstration of core multi-agent system design for AI-Driven Drama.
+- Authored a paper as the **first author** [(Accepted at ICLR 2026)](https://openreview.net/pdf?id=MKwW04UHW1);
+- Proposed an multi-agent system **HAMLET**, capable of generating entire online drama performance autonomously with single-sentence user input;
+- Conducted extensive experiments including model training, win-rate evaluation and ablation studies.
 
 
 
-![](realtime.png)
-
-### LINKs
-
-**LINKs: LLM Integrated Management for 6G Empowered Digital Twin Networks** 
+### LINKs: LLM Integrated Management for 6G Empowered Digital Twin NetworKs
 
 ![](system.png)
 
-Supervised by Dr. **Yue Wu**, School of Information Science and Engineering, East China University of Science and Technology, China
+*Supervised by **Dr.Yue Wu**, School of Information Science and Engineering, East China University of Science and Technology, China*
 
-- First author; accepted at IEEE VTC2024‑Fall; preprint: [arXiv:2412.19811](https://arxiv.org/pdf/2412.19811).
-- Built an autonomous network management framework featuring multi‑agent collaboration, self‑reflection, and a comprehensive tool‑use stack.
-- Fine‑tuned `TimesFM` with `LoRA`, achieving SOTA performance on network traffic prediction.
+- Authored a paper as the **first author** [(Accepted at IEEE VTC 2024)](https://arxiv.org/pdf/2412.19811);
+- Proposed an autonomous network management framework **LINKs** for urban scenarios, incorporating multi-agent collaboration, a self-reflection workflow, and a full toolset for agent tool calling;
+- Conducted ablation studies on multiple experimental results, fine-tuned TimesFM, Google's pretrained time series prediction model, with LoRA using the HuggingFace PEFT Library, achieving state-of-the-art performance in network traffic prediction.
 
-![](workflow.png)
+
+
+## Project
 
 ### Island Life From Zero
 
@@ -69,7 +78,7 @@ Supervised by Dr. **Yue Wu**, School of Information Science and Engineering, Eas
 
 ![](game.png)
 
-Supervised by Dr. **Ke Fang**, Tsinghua Shenzhen International Graduate School, Tsinghua University, China
+Supervised by **Dr.Ke Fang**, Tsinghua Shenzhen International Graduate School, Tsinghua University, China
 
 - Designed an island‑themed social‑simulation game in Unity; published on [itch.io](https://itch.io/jam/fortnight-test-01/rate/3023833).
 - Implemented LLM‑driven NPCs with planning, reasoning, memory, and tool‑use.
@@ -81,9 +90,9 @@ Supervised by Dr. **Ke Fang**, Tsinghua Shenzhen International Graduate School, 
 
 ![](poetry.png)
 
-- Designed structured prompts for text‑to‑image generation and dialogue across age groups; integrated with LangChain.
-- Implemented multimodal RAG by extracting document images and re‑captioning with BLIP2‑OPT‑6.7B for cross‑modal alignment; built vector stores for retrieval.
-- Developed a React web app with history tracking, theme switching, web search, dark mode, and RAG file upload.
+- Designed structured prompts for text-to-image generation and text interaction tailored to different age groups, and integrated them with LangChain;
+- Implemented multimodal RAG module by extracting images from documents and recaptioning them via BLIP2-OPT-6.7B for semantic alignment, and built vector storage for multimodal retrieval;
+- Developed web interface based on React, featuring history tracking, theme switching, online searching, day-night UI toggling and RAG file uploading.
 
 ### MGLCD
 
@@ -93,21 +102,27 @@ Supervised by Dr. **Ke Fang**, Tsinghua Shenzhen International Graduate School, 
 
 Supervised by Prof. **Pietro Liò**, Department of Computer Science and Technology, University of Cambridge, UK
 
-- Curated and annotated 2,000+ medical cell images across 7 categories from Kaggle, Hugging Face, and other sources.
-- Preprocessed with OpenCV (denoising, deduplication) and Mosaic augmentation for diversity.
-- Trained CNN and Transformer‑based detectors (YOLO series, ViT, DETR).
+- Collected and annotated a dataset of over 2,000 medical cell images across 7 categories from various sources, including Kaggle, HuggingFace, and other open-source platforms;
+- Pre-processed datasets using OpenCV-Python, including noise reduction, deduplication, and data augmentation with the Mosaic method to generate diverse training samples;
+- Trained object detection models using both CNN-based and Transformer-based network architectures, including YOLO series, Vision Transformer, and DEtection TRansformer. Demo displayed on [GitHub](https://github.com/Tsumugii24/lesion-cells-det).
 
 ---
 
-# Publication
 
-\* denotes equal contribution
+
+## Publications
+
+> \* denotes equal contribution
+
+**2026**
+
+- [[ICML 2026]]() **CAMEL-AI**. CAMEL: A Framework for Finding the Scaling Laws of Agents.
+- [[ICLR 2026 Workshop]]() **Shufan Jiang**, Chios Chen, Zhiyang Chen. GBQA: A Game Benchmark for Evaluating LLMs as Quality Assurance Engineers.
+- [[ICLR 2026]]() **Shufan Jiang**, Sizhou Chen, Chi Zhang, Xiao-Lei Zhang, Xuelong Li. HAMLET: A Hierarchical and Adaptive Multi-agent Framework for Live Embodied Theatrics.
 
 **2025**
 
-* [[ICLR 2026]]() Haotian Wu\*, **Shufan Jiang\***, Mingyu Chen, Yiyang Feng, Hehai Lin, Heqing Zou, Yao Shu, Chengwei Qin. FURINA: A Fully Customizable Role-Playing Benchmark via Scalable Multi-Agent Collaboration Pipeline.
-
-* [[ICLR 2026]]() Sizhou Chen\*, **Shufan Jiang\***, Chi Zhang, Xiao-Lei Zhang, Xuelong Li. HAMLET: Hyperadaptive Agent‑based Modeling for Live Embodied Theatrics.
+* [[arXiv]]() Haotian Wu\*, **Shufan Jiang\***, Mingyu Chen, Yiyang Feng, Hehai Lin, Heqing Zou, Yao Shu, Chengwei Qin. FURINA: A Fully Customizable Role-Playing Benchmark via Scalable Multi-Agent Collaboration Pipeline.
 
 **2024**
 
@@ -115,33 +130,35 @@ Supervised by Prof. **Pietro Liò**, Department of Computer Science and Technolo
 
 ---
 
-# Open Source Activities
+
+
+## Open Source Activities
 
 **Datawhale**
 
-- Delivered the talk ***How to Learn AI*** to over 200 attendees in AI+X Tour, ECUST.
-- Supported learners as a Teaching Assistant (guidance, Q&A, grading).
-- Co‑developed a summer camp course on [Multimodal Data Synthesis](https://tianchi.aliyun.com/competition/entrance/532251) with 1,000+ participants.
-- Top‑3 core contributor to [self‑llm](https://github.com/datawhalechina/self-llm) (23k+ GitHub stars).
-- Co‑leader of [unlock‑deepseek](https://github.com/datawhalechina/unlock-deepseek), expanding and reproducing DeepSeek innovations.
+- Core Maintainer of [self‑llm](https://github.com/datawhalechina/self-llm).
+- Co‑Leader of [hello-agents](https://github.com/datawhalechina/hello-agents), covers the design and implementation of agent systems, ranging from fundamental theories to practical applications.
+- Co‑Leader of [unlock‑deepseek](https://github.com/datawhalechina/unlock-deepseek), dedicated to interpreting, expanding, and reproducing DeepSeek's innovative achievements.
 
-**CAMEL**
+**CAMEL-AI**
 
 - Integrated BFCL (Berkeley Function Calling Leaderboard) features into [camel](https://github.com/camel-ai/camel).
-- Co‑designed multi‑agent tutorials with runnable code in [handy‑multi‑agent](https://github.com/datawhalechina/handy-multi-agent).
+- Co-lead multi-agent tutorials based on camel framework in [handy‑multi‑agent](https://github.com/datawhalechina/handy-multi-agent).
 
 **Others**
 
-- Contributed to [transformers](https://github.com/huggingface/transformers) by fixing Triton version checks for MXFP4 inference support.
-- Contributed to [LLaMA‑Factory](https://github.com/hiyouga/LLaMA-Factory) by resolving bitsandbytes quantization compatibility issues.
+- Contributed to [transformers](https://github.com/huggingface/transformers) by fixing triton check to support MXFP4 model inference.
+- Contributed to [LLaMA‑Factory](https://github.com/hiyouga/LLaMA-Factory) by resolving compatibility issues with bitsandbytes quantization.
 
 ---
 
-# Work Experience
+
+
+## Experience
 
 **2025 miHoYo**
 
-LLM Algorithm Research Intern, Lumi Group, miHoYo Network Technology Co., Ltd.
+LLM Algorithm Research Intern, LumiNLP, miHoYo Network Technology Co., Ltd.
 
 **2024 Roche**
 
