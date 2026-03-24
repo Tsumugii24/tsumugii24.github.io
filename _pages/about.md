@@ -22,7 +22,7 @@ I was previously a research intern at **miHoYo LumiNLP**, where I worked on Inte
 ---
 
 
-## Research
+# Research
 
 ### GBQA: A Game Benchmark for Evaluating LLMs as Quality Assurance Engineers
 
@@ -70,11 +70,9 @@ I was previously a research intern at **miHoYo LumiNLP**, where I worked on Inte
 
 
 
-## Project
+# Project
 
 ### Island Life From Zero
-
-**Game Development**
 
 ![](game.png)
 
@@ -84,9 +82,7 @@ Supervised by **Dr.Ke Fang**, Tsinghua Shenzhen International Graduate School, T
 - Implemented LLM‑driven NPCs with planning, reasoning, memory, and tool‑use.
 - Enabled NPC skill evolution through interaction and collaboration.
 
-### PoetryChat
-
-**LLM‑based Interactive Chinese Poetry Learning Assistant**
+### PoetryChat: LLM‑based Interactive Chinese Poetry Learning Assistant
 
 ![](poetry.png)
 
@@ -94,9 +90,7 @@ Supervised by **Dr.Ke Fang**, Tsinghua Shenzhen International Graduate School, T
 - Implemented multimodal RAG module by extracting images from documents and recaptioning them via BLIP2-OPT-6.7B for semantic alignment, and built vector storage for multimodal retrieval;
 - Developed web interface based on React, featuring history tracking, theme switching, online searching, day-night UI toggling and RAG file uploading.
 
-### MGLCD
-
-**Multi‑Granularity Lesion Cell Detection Using Deep Neural Networks**
+### Multi‑Granularity Lesion Cell Detection Using Deep Neural Networks
 
 ![](cells.png)
 
@@ -110,7 +104,7 @@ Supervised by Prof. **Pietro Liò**, Department of Computer Science and Technolo
 
 
 
-## Publications
+# Publications
 
 > \* denotes equal contribution
 
@@ -132,7 +126,7 @@ Supervised by Prof. **Pietro Liò**, Department of Computer Science and Technolo
 
 
 
-## Open Source Activities
+# Open Source Activities
 
 **Datawhale**
 
@@ -154,7 +148,7 @@ Supervised by Prof. **Pietro Liò**, Department of Computer Science and Technolo
 
 
 
-## Experience
+# Experience
 
 **2025 miHoYo**
 
